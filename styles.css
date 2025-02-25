@@ -122,6 +122,24 @@ h1.Welcome {
 }
 
 
+
+/*Band Site Video Styling*/
+
+
+.band-site {
+  border-radius: 15%;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 200ms ease-in-out;
+}
+
+.band-site:hover {
+  transform: scale(1.05);
+}
+
+
+
 /* Footer styling */
 
 footer {
@@ -188,6 +206,13 @@ ul {
 }
 
 .music-store {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+
+.band-site {
   width: 100%;
   max-width: 400px;
   height: auto;
